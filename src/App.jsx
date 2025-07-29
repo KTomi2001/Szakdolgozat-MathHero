@@ -1,5 +1,10 @@
-import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+import MainPage from './pages/MainPage/MainPage';
 
+function App() {
+  return (
+    <MainPage />
+  );
+}
 
-export default App
+export default App;
